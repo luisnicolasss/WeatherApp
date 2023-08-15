@@ -55,11 +55,16 @@ dependencies {
     // Retrofit
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.squareup.retrofit2:adapter-rxjava2:2.3.0")
     //Corrutinas
     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
     //Glide
     implementation ("com.github.bumptech.glide:glide:4.12.0")
     implementation ("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+    //RXJAVA
+    implementation ("io.reactivex.rxjava2:rxjava:2.2.6")
+    implementation ("io.reactivex.rxjava2:rxandroid:2.1.1")
+
 
 
     testImplementation("junit:junit:4.13.2")
